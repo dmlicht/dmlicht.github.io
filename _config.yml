@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: David Lichtenberg
 email:
 description: A simple and awesome blog theme powered by jekyll.
 url:
@@ -39,10 +39,10 @@ exclude:
 ####################################
 #
 owner:
-  name: Leonids
+  name: David Lichtenberg
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: 
+  bio: "Machine learning and python delivered straight to your brain."
   email:
   disqus-shortname:
   twitter: #username
