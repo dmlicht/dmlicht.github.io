@@ -17,7 +17,7 @@ url: davidlichtenberg.com
 timezone:          Europe/Paris
 markdown:          kramdown
 highlighter:       rouge
-excerpt_separator: <!--more-->
+# excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
 
 kramdown:
@@ -26,6 +26,12 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+
+gems: 
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 #
 ###################################
